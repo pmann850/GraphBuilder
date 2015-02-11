@@ -36,7 +36,7 @@ Drive parsing and graph building from a configuration file
 PATTERNS
 
 Data graphing patterns include:
-Direct Data - Nodes and relationships are built directly from data (i.e. data is pulled from multiple sources. pk and fk ids are used to build relationships)
-Merged Data - Information from multiple sources can be merged into a single node (i.e. patient data is presented in yml and xlsx files can be merged into a single record.)
-Child Data - Parent-Child relationships in data can translate directly to nodes (i.e. medications can be extracted from patient info)
-Derrived Data - Nodes can be derrived from attributes of child data (i.e. specialty can be derrived from certifications. certification becomes a relationship of a doctor to a specialty.)
+- Direct Data   - Nodes and relationships are built directly from data (i.e. data is pulled from multiple sources. pk and fk ids are used to build relationships)
+- Merged Data   - Information from multiple sources can be merged into a single node (i.e. patient data is presented in yml and xlsx files can be merged into a single record.)
+- Child Data    - Parent-Child relationships in data can translate directly to nodes (i.e. medications can be extracted from patient info)
+- Derrived Data - Nodes can be derrived from attributes of child data (i.e. specialty can be derrived from certifications. certification becomes a relationship of a doctor to a specialty.)
